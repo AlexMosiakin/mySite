@@ -1,0 +1,30 @@
+.header-wrapper{
+    margin-top: 45px;
+    align-items: center;
+    display: flex;
+}
+
+.header-nav{
+    font-size: 24px;
+    line-height: 29px;
+    width: 100%;
+    max-width: 439px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-left: 260px;
+    a{
+        text-decoration: none;
+        color: #FFFFFF;
+    }
+}
+
+.header-country{
+    font-size: 24px;
+    line-height: 29px;
+    margin-left: auto;
+    a{
+        text-decoration: none;
+        color: #FFFFFF;
+    }
+}
