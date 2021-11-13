@@ -1,0 +1,56 @@
+.birds-wrapper{
+    margin-top: 730px;
+    width: 100%;
+    position: relative;
+}
+.birds-img{
+    position: absolute;
+    width: 100%;
+    height: 765px;
+    object-fit: cover;
+    pointer-events: none;
+}
+.birds-title{
+    font-size: 48px;
+    line-height: 59px;
+    text-align: center;
+    color: #FFFFFF;
+    padding: 255px 0 455px 0;
+    span{
+        text-decoration: underline;
+        cursor: pointer;
+    }
+}
+
+.left-wing{
+ animation: left-wing 2.5s infinite ease-in-out;
+}
+
+.right-wing{
+    animation: right-wing 2.5s infinite ease-in-out;
+}
+   
+
+@keyframes left-wing {
+    0%{
+        transform: matrix(1, 0, 0, 1, 0, 0);
+    }
+    50%{
+        transform: matrix(1, 0, .3, 1.5, -2, -4);
+    }
+    100%{
+        transform: matrix(1, 0, 0, 1, 0, 0);
+    }
+}
+
+@keyframes right-wing {
+    0%{
+        transform: matrix(1, 0, 0, 1, 0, 0);
+    }
+    50%{
+        transform: matrix(1, 0.3, 0.5, 1.5, -2, -16);
+    }
+    100%{
+        transform: matrix(1, 0, 0, 1, 0, 0);
+    }
+}

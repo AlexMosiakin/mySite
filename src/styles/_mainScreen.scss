@@ -4,21 +4,44 @@
     top: 125px;
     width: 100%;
     height: 505px;
+    pointer-events: none;
+}
+
+
+.me{
+  position: absolute;
+  left: 53%;
+  top: -187px;
+  z-index: -1;
+  opacity: 0;
+  visibility: hidden;
+  transition: 0.5s;
+}
+
+.nameHover{
+  font-weight: bold;
+  text-decoration: underline;
+  cursor: pointer;
+  transition: .5s;
+  &:hover .me {
+    opacity: 1;
+    visibility: visible;
+  }
 }
 
 .main-text{
     max-width: 750px;
     margin: 0 auto;
     padding: 290px 0 45px 0;
+    position: relative;
+    z-index: 1;
     h1{
         font-size: 48px;
         line-height: 59px;
         color: #FFFFFF;
         font-weight: normal;
-        span{
-            font-weight: bold;
-            text-decoration: underline;
-        }
+        z-index: 1;
+        position: relative;
     }
 }
 

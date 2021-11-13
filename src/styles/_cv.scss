@@ -1,0 +1,52 @@
+.cv-wrapper{
+    max-width: 1650px;
+    margin: 0 auto;
+    padding: 65px 0 190px 0;
+}
+.cv-text{
+    font-size: 42px;
+    line-height: 59px;
+    color: #FFFFFF;
+}
+.cv-text.ux{
+    max-width: 1040px;
+    margin-bottom: 140px;
+}
+.cv-row{
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 140px;
+}
+.cv-text.design{
+    max-width: 1190px;
+}
+.cv-button-wrapper{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.cv-btn{
+    text-decoration: none;
+    position: relative;
+    &:hover .cv-btn-img{
+        opacity: 0;
+    }
+    &:hover .cv-btn-img.b{
+        left: -25%;
+    }
+    &:hover .cv-btn-img.a{
+        right: -25%;
+    }
+}
+.cv-btn-img{
+    position: absolute;
+    transition: 1s;
+}
+.cv-btn-img.b{
+    top: -19px;
+    left: -23px;
+}
+.cv-btn-img.a{
+    top: -41px;
+    right: -9px;
+}

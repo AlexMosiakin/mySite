@@ -7,6 +7,7 @@
 body {
   font-family: "Montserrat", sans-serif;
   background: linear-gradient(270deg, #6855EC 0%, #CA79DF 100%);
+  overflow-x: hidden;
 }
 
 h1,
@@ -27,13 +28,32 @@ h4 {
   margin:  0 auto;
 }
 
-.library-active {
-  margin-left: 20%;
+/* width */
+::-webkit-scrollbar {
+  width: 8px;
 }
 
-@import "./player";
-@import "./song";
-@import "./library";
+/* Track */
+::-webkit-scrollbar-track {
+  background: #fff;
+}
+
+/* Handle */
+::-webkit-scrollbar-thumb {
+  background: linear-gradient(0deg, #6855EC 0%, #CA79DF 100%);
+  border-radius: 8px;
+}
+
+// /* Handle on hover */
+// ::-webkit-scrollbar-thumb:hover {
+//   background: linear-gradient(0deg, #6855EC 0%, #CA79DF 100%);
+// }
+
+
 @import "./nav";
 @import "./header";
 @import "./mainScreen";
+@import "./birds";
+@import "./three";
+@import "./cv";
+@import "./footer.scss";

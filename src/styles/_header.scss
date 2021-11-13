@@ -13,8 +13,9 @@
     justify-content: space-between;
     align-items: center;
     margin-left: 260px;
-    a{
-        text-decoration: none;
+    li{
+        list-style-type: none;
+        cursor: pointer;
         color: #FFFFFF;
     }
 }

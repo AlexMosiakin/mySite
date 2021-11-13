@@ -1,10 +1,22 @@
-import React from 'react';
+import {React, useRef, useEffect} from 'react';
 import mountain from '../img/mountain.png';
+import me from '../img/me.png';
+import { gsap } from "gsap";
 
 const MainScreen = () => {
+    const boxRef = useRef();
+    const mount = useRef();
+    const stars = useRef();
+
+    useEffect(() => {
+        let tl = gsap.timeline({});
+        tl.fromTo(boxRef.current, { opacity: "0"}, { opacity: "1", duration: 2 });
+        tl.fromTo(mount.current, { y: "400" }, { y: "0", duration: 1  });
+        tl.fromTo(stars.current, { x: "-100%", opacity: "0"}, { x: "0", opacity: "1", duration: 1  });
+    });
     return(
         <div className={'main-screen'}>
-            <svg className={'main-stars'} width="1920" height="505" viewBox="0 0 1920 505" fill="none" xmlns="http://www.w3.org/2000/svg">
+            <svg className={'main-stars'} ref={stars} width="1920" height="505" viewBox="0 0 1920 505" fill="none" xmlns="http://www.w3.org/2000/svg">
                 <circle className={'bulb blink-1'} cx="334.5" cy="86.5" r="2.5" fill="white"/>
                 <circle className={'bulb blink-2'} cx="1109.5" cy="213.5" r="2.5" fill="white"/>
                 <circle className={'bulb blink-3'} cx="147.5" cy="481.5" r="2.5" fill="white"/>
@@ -34,9 +46,13 @@ const MainScreen = () => {
                 <circle className={'bulb blink-1'} cx="930.5" cy="183.5" r="2.5" fill="white"/>
             </svg>
             <div className={'main-text'}>
-                <h1>Hi, my name is <span>AlexMosiakin</span> and I am front-end developper </h1>
+                <div className="main-text-container" ref={boxRef}>
+                    <h1>Hi, my name is <span className={'nameHover'}>AlexMosiakin <img className={'me'} src={me} alt="me" /></span> and I am front-end developper </h1>
+                </div>
+                
+                
             </div>
-            <img className={'mountain'} src={mountain} alt={mountain}/>
+            <img className={'mountain'} src={mountain} alt={mountain} ref={mount}/>
         </div>
     )
 }
