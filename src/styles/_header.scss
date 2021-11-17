@@ -29,3 +29,20 @@
         color: #FFFFFF;
     }
 }
+
+.scroll-link{
+    position:relative;
+    ::before{
+        content: "";
+        position: absolute;
+        width: 0%;
+        height: 2px;
+        background: #fff;
+        transition: 0.5s;
+        bottom: 0;
+        left: 0;
+    }
+    :hover::before{
+        width: 100%;
+    }
+}

@@ -6,14 +6,14 @@ const Footer = () => {
         <div id="contacts" className={'foot-wrapper'}>
             <div className={'foot-title'}>
                 <h2>Hit me up for <br /> Future Project.</h2>
-                <a href="#">alexandre.mosiakin@yandex.ru</a>
+                <a href="mailto:alexandre.mosiakin@yandex.ru">alexandre.mosiakin@yandex.ru</a>
             </div>
             <div className={'foot-social'}>
-                <a href="#">Tel +7 (902) 780 25-25</a>
+                <a href="tel:+7(902)78025-25">Tel +7 (902) 780 25-25</a>
                 <img src={bird} alt="bird" />
-                <a href="#">Github</a>
-                <a href="#">Behance</a>
-                <a href="#">Dribble</a>
+                <a href="https://github.com/AlexMosiakin">Github</a>
+                <a href="https://t.me/AleksandrMoss">Telegram</a>
+                <a href="#">WhatUp</a>
                 <a href="#">Instagram</a>
             </div>
             <div className={'foot-copy'}>
