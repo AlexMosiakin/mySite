@@ -50,3 +50,22 @@
     top: -41px;
     right: -9px;
 }
+
+@media screen and (max-width:1799px) {
+    .cv-text{
+        font-size: 38px;
+        line-height: inherit;
+    }
+    .cv-text.design {
+        max-width: 990px;
+    }
+    .cv-text.ux {
+        margin-bottom: 100px;
+    }
+    .cv-row {
+        margin-bottom: 100px;
+    }
+    .cv-wrapper {
+        padding: 65px 0 140px 0;
+    }
+}

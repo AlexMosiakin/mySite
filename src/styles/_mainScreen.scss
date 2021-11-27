@@ -21,7 +21,6 @@
 .nameHover{
   font-weight: bold;
   text-decoration: underline;
-  cursor: pointer;
   transition: .5s;
   &:hover .me {
     opacity: 1;
@@ -249,5 +248,16 @@
             rotate(0deg);
         opacity: 0;
     }
+}
+
+@media screen and (max-width:1799px){
+  .main-text {
+    max-width: 590px;
+    padding: 200px 0 45px 0;
+}
+.main-text h1 {
+  font-size: 38px;
+  line-height: inherit;
+}
 }
   

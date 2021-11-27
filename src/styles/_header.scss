@@ -15,7 +15,6 @@
     margin-left: 260px;
     li{
         list-style-type: none;
-        cursor: pointer;
         color: #FFFFFF;
     }
 }
@@ -44,5 +43,15 @@
     }
     :hover::before{
         width: 100%;
+    }
+}
+
+@media screen and (max-width:1799px) {
+    .header-nav li{
+        font-size: 20px;
+    }
+    .header-country {
+        font-size: 20px;
+        line-height: inherit;
     }
 }

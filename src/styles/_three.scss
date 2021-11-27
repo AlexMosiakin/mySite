@@ -117,3 +117,19 @@
     animation: windLeaf 7s linear infinite;
     transform-origin: 100% 100%;
 }
+
+
+@media screen and (max-width:1799px) {
+    .three-img {
+        width: 1300px;
+        object-fit: contain;
+        height: auto;
+    }
+    .three-projects {
+        height: 753px;
+    }
+    .three-title{
+        font-size: 38px;
+        line-height: inherit;
+    }
+}

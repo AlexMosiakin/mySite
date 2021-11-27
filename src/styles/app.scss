@@ -8,6 +8,7 @@ body {
   font-family: "Montserrat", sans-serif;
   background: linear-gradient(270deg, #6855EC 0%, #CA79DF 100%);
   overflow-x: hidden;
+  cursor: none;
 }
 
 h1,
@@ -48,6 +49,13 @@ h4 {
 // ::-webkit-scrollbar-thumb:hover {
 //   background: linear-gradient(0deg, #6855EC 0%, #CA79DF 100%);
 // }
+
+
+@media screen and (max-width:1799px){
+  .App {
+    max-width: 1300px;
+  }
+}
 
 
 @import "./nav";

@@ -34,7 +34,6 @@
         line-height: 59px;
         color: #fff;
         text-decoration: none;
-        margin-bottom: 30px;
         transition: 0.5s;
         &:hover{
             opacity: 0.5;
@@ -61,4 +60,20 @@
     width: 100%;
     position: absolute;
     left: 0;
+}
+
+@media screen and (max-width:1799px) {
+    .foot-title h2 {
+        font-size: 64px;
+    }
+    .foot-title a , .foot-social a{
+        font-size: 38px;
+        line-height: inherit;
+    }
+    .foot-copy p {
+        font-size: 18px;
+    }
+    .foot-social img{
+        width: 60px;
+    }
 }

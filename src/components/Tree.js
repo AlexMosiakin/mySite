@@ -92,7 +92,7 @@ const Three = () => {
                 </a>
 
                 <div className={"three-title"}>
-                    Explore front with me
+                    Click on leaves
                 </div>
             </div>
         </div>
