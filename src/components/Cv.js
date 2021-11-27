@@ -1,6 +1,7 @@
 import React from 'react';
 import btnb from '../img/btn-b.svg';
 import btna from '../img/btn-a.svg';
+import resume from '../resume.pdf'
 
 const Cv = () => {
     return(
@@ -14,7 +15,7 @@ const Cv = () => {
                 I’m well-versed in producing mobile/desktop applications or websites and this is my passion</p>
             </div>
             <div className={'cv-button-wrapper'}>
-            <a href="#" className={'cv-btn'}>
+            <a target="blank" href={resume} className={'cv-btn'}>
                 <img src={btnb} alt={"btnb"} className={'cv-btn-img b'}/>
                 <span className={'cv-text'}>DOWNLOAD CV</span>
                 <img src={btna} alt={"btna"} className={'cv-btn-img a'}/>

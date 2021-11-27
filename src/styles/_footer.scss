@@ -14,23 +14,31 @@
         line-height: 59px;
         text-decoration: underline;
         color: #fff;
+        transition: 0.5s;
+        &:hover{
+            opacity: 0.5;
+        }
     }
 }
 .foot-social{
     display: flex;
-    max-width: 890px;
+    max-width: 600px;
     margin: 0 auto;
     align-items: center;
     justify-content: space-between;
     flex-wrap: wrap;
     margin-top: 60px;
-    margin-bottom: 190px;
+    margin-bottom: 75px;
     a{
         font-size: 48px;
         line-height: 59px;
         color: #fff;
         text-decoration: none;
         margin-bottom: 30px;
+        transition: 0.5s;
+        &:hover{
+            opacity: 0.5;
+        }
     }
 }
 
@@ -45,7 +53,7 @@
         left: 50%;
         transform: translateX(-50%);
         z-index: 2;
-        margin-top: 45px;
+        margin-top: 70px;
     }
 }
 

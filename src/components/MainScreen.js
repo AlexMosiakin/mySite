@@ -11,8 +11,8 @@ const MainScreen = () => {
     useEffect(() => {
         let tl = gsap.timeline({});
         tl.fromTo(boxRef.current, { opacity: "0"}, { opacity: "1", duration: 2 });
-        tl.fromTo(mount.current, { y: "400" }, { y: "0", duration: 1  });
-        tl.fromTo(stars.current, { x: "-100%", opacity: "0"}, { x: "0", opacity: "1", duration: 1  });
+        tl.fromTo(mount.current, { clipPath: "inset(100% 0% 0% 0%)", }, { clipPath: "inset(0% 0% 0% 0%)", duration: 1  });
+        tl.fromTo(stars.current, { clipPath: "inset(0% 100% 0% 0%)"}, { clipPath: "inset(0% 0% 0% 0%)", duration: 2  });
     });
     return(
         <div className={'main-screen'}>
@@ -53,6 +53,24 @@ const MainScreen = () => {
                 
             </div>
             <img className={'mountain'} src={mountain} alt={mountain} ref={mount}/>
+
+            <div id="leaves">
+                <i></i>
+                <i></i>
+                <i></i>
+                <i></i>
+                <i></i>
+                <i></i>
+                <i></i>
+                <i></i>
+                <i></i>
+                <i></i>
+                <i></i>
+                <i></i>
+                <i></i>
+                <i></i>
+                <i></i> 
+            </div>
         </div>
     )
 }

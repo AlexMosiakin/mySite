@@ -3,8 +3,8 @@
         position: fixed;
         bottom: 56px;
         right: 56px;
-        width: 100px;
-        height: 100px;
+        width: 75px;
+        height: 75px;
         background: #fff;
         border-radius: 50%;
         opacity: 0;
@@ -12,9 +12,17 @@
         cursor: pointer;
         transition: 0.5s;
         border: none;
+        transition: 0.5s;
+    }
+    button:hover{
+        transform: scale(1.1);
     }
     button.show{
         opacity: 1;
         visibility: visible;
+    }
+    .up-img{
+        width: 25px;
+        object-fit: contain;
     }
 }

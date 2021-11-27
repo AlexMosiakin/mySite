@@ -9,12 +9,9 @@ const Footer = () => {
                 <a href="mailto:alexandre.mosiakin@yandex.ru">alexandre.mosiakin@yandex.ru</a>
             </div>
             <div className={'foot-social'}>
-                <a href="tel:+7(902)78025-25">Tel +7 (902) 780 25-25</a>
+                <a href="https://t.me/AleksandrMoss">Telegram</a>
                 <img src={bird} alt="bird" />
                 <a href="https://github.com/AlexMosiakin">Github</a>
-                <a href="https://t.me/AleksandrMoss">Telegram</a>
-                <a href="#">WhatUp</a>
-                <a href="#">Instagram</a>
             </div>
             <div className={'foot-copy'}>
                 <p>© 2021 ALEXMOSS.COM. ALL RIGHTS RESERVED.</p>
