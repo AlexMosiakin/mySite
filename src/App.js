@@ -34,7 +34,7 @@ function App() {
   }
 
   function AnimatedCursor({
-    color = '255, 255, 255',
+    color = '105, 87, 187',
     outerAlpha = 0.4,
     innerSize = 8,
     outerSize = 8,
@@ -169,7 +169,7 @@ function App() {
         position: 'fixed',
         opacity: 1,
         pointerEvents: 'none',
-        transition: 'opacity 0.15s ease-in-out, transform 0.15s ease-in-out'
+        transition: 'opacity 0.15s ease-in-out, transform 0.15s ease-in-out',
       },
       cursorInner: {
         position: 'fixed',
@@ -177,6 +177,7 @@ function App() {
         height: innerSize,
         pointerEvents: 'none',
         backgroundColor: `rgba(${color}, 1)`,
+        border: `1px solid #fff`,
         transition: 'opacity 0.15s ease-in-out, transform 0.25s ease-in-out',
         borderRadius:"50%",
         zIndex: 999,

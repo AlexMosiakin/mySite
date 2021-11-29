@@ -7,6 +7,10 @@
     pointer-events: none;
 }
 
+.main-screen{
+  padding-top: 95px;
+}
+
 
 .me{
   position: absolute;
@@ -36,7 +40,7 @@
     z-index: 1;
     h1{
         font-size: 48px;
-        line-height: 59px;
+        line-height: 55px;
         color: #FFFFFF;
         font-weight: normal;
         z-index: 1;
