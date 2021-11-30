@@ -47,7 +47,7 @@ const MainScreen = () => {
             </svg>
             <div className={'main-text'}>
                 <div className="main-text-container" ref={boxRef}>
-                    <h1>Hi, my name is <span className={'nameHover'}>AlexMosiakin <img className={'me'} src={me} alt="me" /></span> and I am front-end developper </h1>
+                    <h1>Hi, my name is <span className={'nameHover'}>AlexMosiakin <img className={'me'} src={me} alt="me" /></span> and I am front-end developer </h1>
                 </div>
                 
                 
