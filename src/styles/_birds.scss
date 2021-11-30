@@ -61,3 +61,57 @@
         padding: 255px 0 355px 0;
     }
 }
+
+@media screen and (max-width:1439px) {
+.birds-title {
+    font-size: 32px;
+    line-height: initial;
+    padding: 155px 0 255px 0;
+}
+.birds-img{
+    height: auto;
+}
+.birds-wrapper {
+    margin-top: 490px;
+}
+}
+
+@media screen and (max-width:1279px) {
+.birds-wrapper {
+    margin-top: 420px;
+}
+.birds-title {
+    font-size: 28px;
+    line-height: initial;
+    padding: 110px 0 250px 0;
+}
+}
+
+@media screen and (max-width:1023px) {
+.birds-img {
+    left: 50%;
+    transform: translateX(-50%);
+    width: 125%;
+    top: 0;
+  }
+  .birds-title {
+    padding: 140px 0 230px 0;
+    font-size: 24px;
+}
+}
+
+@media screen and (max-width:767px) {
+.birds-title {
+    padding: 140px 0 230px 0;
+    font-size: 20px;
+    max-width: 250px;
+    margin: 0 auto;
+}
+.birds-img{
+    display: none;
+}
+.birds-wrapper {
+    background: url(../img/birds.svg);
+    background-size: cover;
+}
+}

@@ -12,6 +12,7 @@ import "./styles/app.scss";
 
 function App() {
 
+
   function useEventListener(eventName, handler, element = document) {
     const savedHandler = React.useRef()
   
@@ -204,12 +205,14 @@ function App() {
   
   document.body.style.overflow = "hidden";
   setTimeout(function(){
-    document.body.style.overflow = "visible";
+    document.body.style = "overflow-x:hidden";
   }, 4000);
 
   return (
     <div className={`App`}>
-      <AnimatedCursor/>
+      {
+        window.innerWidth > 1023 ? <AnimatedCursor/> : ""
+      }
       <Header />
       <MainScreen />
       <Birds />

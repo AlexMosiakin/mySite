@@ -25,3 +25,16 @@
         object-fit: contain;
     }
 }
+
+@media screen and (max-width:1439px){
+    .up-wrapper .up-img {
+        width: 15px;
+    }
+    .up-wrapper button{
+        width: 50px;
+        height: 50px;
+    }
+    .three-title {
+        font-size: 32px;
+    }
+}
