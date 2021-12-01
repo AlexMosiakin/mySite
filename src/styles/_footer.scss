@@ -43,6 +43,7 @@
 }
 
 .foot-copy {
+    height: 240px;
     text-align: center;
     p {
         font-size: 24px;
@@ -78,6 +79,9 @@
     .foot-social img {
         width: 60px;
     }
+    .foot-copy {
+        height: 180px;
+    }
 }
 
 @media screen and (max-width:1439px) {
@@ -95,6 +99,9 @@
     .foot-social {
         max-width: 400px;
     }
+    .foot-copy {
+        height: 160px;
+    }
 }
 
 @media screen and (max-width:1279px) {
@@ -111,6 +118,9 @@
     }
     .foot-copy p {
         font-size: 16px;
+    }
+    .foot-copy {
+        height: 128px;
     }
 }
 
