@@ -1,26 +1,27 @@
-.foot-title{
+.foot-title {
     max-width: 890px;
     margin: 0 auto;
     text-align: center;
-    h2{
+    h2 {
         font-weight: bold;
         font-size: 84px;
         line-height: 100px;
         color: #FFFFFF;
         margin-bottom: 60px;
     }
-    a{
+    a {
         font-size: 48px;
         line-height: 55px;
         text-decoration: underline;
         color: #fff;
         transition: 0.5s;
-        &:hover{
+        &:hover {
             opacity: 0.5;
         }
     }
 }
-.foot-social{
+
+.foot-social {
     display: flex;
     max-width: 600px;
     margin: 0 auto;
@@ -29,21 +30,21 @@
     flex-wrap: wrap;
     margin-top: 60px;
     margin-bottom: 75px;
-    a{
+    a {
         font-size: 48px;
         line-height: 55px;
         color: #fff;
         text-decoration: none;
         transition: 0.5s;
-        &:hover{
+        &:hover {
             opacity: 0.5;
         }
     }
 }
 
-.foot-copy{
+.foot-copy {
     text-align: center;
-    p{
+    p {
         font-size: 24px;
         line-height: 29px;
         color: #fff;
@@ -56,7 +57,7 @@
     }
 }
 
-.foot-img{
+.foot-img {
     width: 100%;
     position: absolute;
     left: 0;
@@ -66,92 +67,103 @@
     .foot-title h2 {
         font-size: 64px;
     }
-    .foot-title a , .foot-social a{
+    .foot-title a,
+    .foot-social a {
         font-size: 38px;
         line-height: inherit;
     }
     .foot-copy p {
         font-size: 18px;
     }
-    .foot-social img{
+    .foot-social img {
         width: 60px;
     }
 }
 
-@media screen and (max-width:1439px){
+@media screen and (max-width:1439px) {
     .foot-title h2 {
         font-size: 54px;
         line-height: 74px;
     }
-    .foot-social{
+    .foot-social {
         margin-bottom: 140px;
     }
-    .foot-title a, .foot-social a {
+    .foot-title a,
+    .foot-social a {
         font-size: 32px;
     }
-    .foot-social{
+    .foot-social {
         max-width: 400px;
     }
 }
 
-@media screen and (max-width:1279px){
-.foot-copy p{
-    margin-top: 40px;
-}
-.foot-title a, .foot-social a {
-    font-size: 28px;
-}
-.foot-title h2 {
-    font-size: 48px;
-    line-height: 64px;
-}
-.foot-copy p {
-    font-size: 16px;
-}
-}
-
-@media screen and (max-width:1023px){
-.foot-title h2 {
-    font-size: 42px;
-    line-height: 54px;
-    margin-bottom: 30px;
-}
-.foot-title a, .foot-social a {
-    font-size: 24px;
-}
-.foot-social {
-    max-width: 300px;
-    margin-top: 30px;
-}
-.foot-img {
-    width: 150%;
-    position: absolute;
-    left: 50%;
-    transform: translateX(-50%);
-}
-.foot-copy p {
-    font-size: 14px;
-}
+@media screen and (max-width:1279px) {
+    .foot-copy p {
+        margin-top: 40px;
+    }
+    .foot-title a,
+    .foot-social a {
+        font-size: 28px;
+    }
+    .foot-title h2 {
+        font-size: 48px;
+        line-height: 64px;
+    }
+    .foot-copy p {
+        font-size: 16px;
+    }
 }
 
-@media screen and (max-width:767px){
-.foot-title a, .foot-social a {
-    font-size: 20px;
+@media screen and (max-width:1023px) {
+    .foot-title h2 {
+        font-size: 42px;
+        line-height: 54px;
+        margin-bottom: 30px;
+    }
+    .foot-title a,
+    .foot-social a {
+        font-size: 24px;
+    }
+    .foot-social {
+        max-width: 300px;
+        margin-top: 30px;
+    }
+    .foot-img {
+        width: 150%;
+        position: absolute;
+        left: 50%;
+        transform: translateX(-50%);
+    }
+    .foot-copy p {
+        font-size: 14px;
+    }
+    .foot-copy {
+        height: 144px;
+    }
 }
-.foot-title h2 {
-    font-size: 38px;
-    line-height: 48px;
-    margin-bottom: 30px;
-}
-.foot-img {
-    width: 250%;
-    position: absolute;
-    left: 50%;
-    transform: translateX(-50%);
-}
-.foot-copy p {
-    font-size: 12px;
-    margin-top: 30px;
-    width: 100%;
-}
+
+@media screen and (max-width:767px) {
+    .foot-title a,
+    .foot-social a {
+        font-size: 20px;
+    }
+    .foot-title h2 {
+        font-size: 38px;
+        line-height: 48px;
+        margin-bottom: 30px;
+    }
+    .foot-img {
+        width: 250%;
+        position: absolute;
+        left: 50%;
+        transform: translateX(-50%);
+    }
+    .foot-copy p {
+        font-size: 12px;
+        margin-top: 30px;
+        width: 100%;
+    }
+    .foot-copy {
+        height: 116px;
+    }
 }
