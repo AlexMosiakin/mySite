@@ -3,6 +3,17 @@ import { gsap } from "gsap";
 
 import part from '../img/part-three.svg';
 
+import colorPallete3D from '../img/color-pallete-3d.jpg';
+import musicPlayer from '../img/music-player.jpg';
+import beatMaker from '../img/beat-maker.jpg';
+import kupuev from '../img/kupuev.jpg';
+import dynamicWebsite from '../img/dynamic-website.jpg';
+import blackWall from '../img/black-wall.jpg';
+import colorPalleteJS from '../img/color-pallete-js.jpg';
+import testThree from '../img/test-three.jpg';
+import galaxy from '../img/galaxy.jpg';
+import toDoList from '../img/to-do-list.jpg';
+
 import { ScrollTrigger } from 'gsap/ScrollTrigger';
 gsap.registerPlugin(ScrollTrigger);
 
@@ -51,45 +62,135 @@ const Three = () => {
             </svg>
 
             <div ref={leafs} className={"three-projects"}>
-                <a href="https://alexmosiakin.github.io/LightEffect/" className={"three-part part-1"}>
-                    <img src={part} alt="" />
-                </a>
+                <div className={"three-part part-1"} >
+                    <a href="https://alexmosiakin.github.io/color-palette-3d/" target='_blank'>
+                        <img src={part} alt="color-palette-3d" />
+                    </a>
 
-                <a href="https://alexmosiakin.github.io/testThree/" className={"three-part part-2"}>
-                    <img src={part} alt="" />
-                </a>
+                    <div className={"three-part-about"}>
+                        <img className={"preview"} src={colorPallete3D} alt="colorPallete3D" />
+                        <div className={"description"}>
+                            Color pallete with 3d shape made on Three.js
+                        </div>
+                    </div>
+                </div>
 
-                <a href="https://alexmosiakin.github.io/music-player/" className={"three-part part-3"}>
-                    <img src={part} alt="" />
-                </a>
+                <div className={"three-part part-2"}>
+                    <a href="https://alexmosiakin.github.io/testThree/" target='_blank'>
+                        <img src={part} alt="" />
+                    </a>
 
-                <a href="https://alexmosiakin.github.io/Portofolio-site/" className={"three-part part-4"}>
-                    <img src={part} alt="" />
-                </a>
+                    <div className={"three-part-about"}>
+                        <img className={"preview"} src={testThree} alt="colorPallete3D" />
+                        <div className={"description"}>
+                            My own space made with Three.js
+                        </div>
+                    </div>
+                </div>
 
-                <a href="https://alexmosiakin.github.io/Photon/" className={"three-part part-5"}>
-                    <img src={part} alt="" />
-                </a>
+                <div className={"three-part part-3"}>
+                    <a href="https://alexmosiakin.github.io/music-player/" target='_blank'>
+                        <img src={part} alt="music-player" />
+                    </a>
 
-                <a href="https://alexmosiakin.github.io/DynamicWebsite/" className={"three-part part-6"}>
-                    <img src={part} alt="" />
-                </a>
+                    <div className={"three-part-about"}>
+                        <img className={"preview"} src={musicPlayer} alt="colorPallete3D" />
+                        <div className={"description"}>
+                            Music player made on React.js
+                        </div>
+                    </div>
+                </div>
 
-                <a href="https://alexmosiakin.github.io/ColorPalette/" className={"three-part part-7"}>
-                    <img src={part} alt="" />
-                </a>
+                <div className={"three-part part-4"}>
+                    <a href="https://alexmosiakin.github.io/blackWall/" target='_blank'>
+                        <img src={part} alt="blackWall" />
+                    </a>
 
-                <a href="https://alexmosiakin.github.io/BeatMaker/" className={"three-part part-8"}>
-                    <img src={part} alt="" />
-                </a>
+                    <div className={"three-part-about"}>
+                        <img className={"preview"} src={blackWall} alt="colorPallete3D" />
+                        <div className={"description"}>
+                            Simple example of basic layout with html and css
+                        </div>
+                    </div>
+                </div>
 
-                <a href="https://alexmosiakin.github.io/To-do-list/" className={"three-part part-9"}>
-                    <img src={part} alt="" />
-                </a>
+                <div className={"three-part part-5"}>
+                    <a href="https://alexmosiakin.github.io/KupuevTest/" target='_blank'>
+                        <img src={part} alt="kupuev" />
+                    </a>
 
-                <a href="https://croc-voting-app.herokuapp.com/main/turnout" className={"three-part part-10"}>
-                    <img src={part} alt="" />
-                </a>
+                    <div className={"three-part-about"}>
+                        <img className={"preview"} src={kupuev} alt="colorPallete3D" />
+                        <div className={"description"}>
+                            Example of big project layout with html and css with adaptive
+                        </div>
+                    </div>
+                </div>
+
+                <div className={"three-part part-6"}>
+                    <a href="https://alexmosiakin.github.io/DynamicWebsite/" target='_blank'>
+                        <img src={part} alt="DynamicWebsite" />
+                    </a>
+
+                    <div className={"three-part-about"}>
+                        <img className={"preview"} src={dynamicWebsite} alt="dynamicWebsite" />
+                        <div className={"description"}>
+                            Dynamic website made with JS
+                        </div>
+                    </div>
+                </div>
+
+                <div className={"three-part part-7"}>
+                    <a href="https://alexmosiakin.github.io/ColorPalette/" target='_blank'>
+                        <img src={part} alt="ColorPalette" />
+                    </a>
+
+                    <div className={"three-part-about"}>
+                        <img className={"preview"} src={colorPalleteJS} alt="colorPalleteJS" />
+                        <div className={"description"}>
+                            2D color pallete written in vanilla JS
+                        </div>
+                    </div>
+                </div>
+
+                <div className={"three-part part-8"}>
+                    <a href="https://alexmosiakin.github.io/BeatMaker/" target='_blank'>
+                        <img src={part} alt="" />
+                    </a>
+
+                    <div className={"three-part-about"}>
+                        <img className={"preview"} src={beatMaker} alt="beatMaker" />
+                        <div className={"description"}>
+                            BeatMaker example on vanilla JS
+                        </div>
+                    </div>
+                </div>
+
+                <div className={"three-part part-9"}>
+                    <a href="https://alexmosiakin.github.io/To-do-list/" target='_blank'>
+                        <img src={part} alt="" />
+                    </a>
+
+                    <div className={"three-part-about"}>
+                        <img className={"preview"} src={toDoList} alt="toDoList" />
+                        <div className={"description"}>
+                            Simple to-do-list on vanilla JS
+                        </div>
+                    </div>
+                </div>
+
+                <div className={"three-part part-10"}>
+                    <a href="https://alexmosiakin.github.io/galaxy/" target='_blank'>
+                        <img src={part} alt="galaxy"/>
+                    </a>
+
+                    <div className={"three-part-about"}>
+                        <img className={"preview"} src={galaxy} alt="galaxy" />
+                        <div className={"description"}>
+                            Galaxy example made with Three.js
+                        </div>
+                    </div> 
+                </div>
 
                 <div className={"three-title"}>
                     Click on leaves

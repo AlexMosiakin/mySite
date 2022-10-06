@@ -14,7 +14,7 @@ const Footer = () => {
                 <a href="https://github.com/AlexMosiakin">Github</a>
             </div>
             <div className={'foot-copy'}>
-                <p>© 2021 ALEXMOSS.COM. ALL RIGHTS RESERVED.</p>
+                <p>© 2022 ALEXMOSS.COM. ALL RIGHTS RESERVED.</p>
                 <img className={'foot-img'} src={shadow} alt="" />
             </div>
         </div>
