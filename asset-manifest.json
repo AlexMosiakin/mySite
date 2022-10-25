@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/mySite/static/css/main.93dbff1e.css",
-    "main.js": "/mySite/static/js/main.32e3898d.js",
+    "main.js": "/mySite/static/js/main.e83bb6ce.js",
     "static/js/787.825f97f9.chunk.js": "/mySite/static/js/787.825f97f9.chunk.js",
     "static/media/galaxy.jpg": "/mySite/static/media/galaxy.e4f28519edd768a3237a.jpg",
     "static/media/kupuev.jpg": "/mySite/static/media/kupuev.248d56b4a0a797cf5975.jpg",
@@ -15,7 +15,7 @@
     "static/media/me.png": "/mySite/static/media/me.7c6e1405d8010d3eae13.png",
     "static/media/color-pallete-3d.jpg": "/mySite/static/media/color-pallete-3d.6cc44de627c4f574115e.jpg",
     "static/media/beat-maker.jpg": "/mySite/static/media/beat-maker.39e0ea06c3386de2f853.jpg",
-    "static/media/resume.pdf": "/mySite/static/media/resume.3c17b98fd6f95cc8f7d8.pdf",
+    "static/media/resume.pdf": "/mySite/static/media/resume.ccf76e4be82d136bad87.pdf",
     "static/media/bottom-shadow.png": "/mySite/static/media/bottom-shadow.ef71cb2d3c64e356c041.png",
     "static/media/part-three.svg": "/mySite/static/media/part-three.87d2b9e3a02f8dcc80c93575a1fad71d.svg",
     "static/media/birds.svg": "/mySite/static/media/birds.b7f0e7b1e1032b9031c4e8c5b6876cc1.svg",
@@ -27,11 +27,11 @@
     "static/media/leaf.svg": "/mySite/static/media/leaf.6340a5de926e4f2c6f89.svg",
     "static/media/up.svg": "/mySite/static/media/up.6860899495802b55fdb2f8c3b317bfdf.svg",
     "main.93dbff1e.css.map": "/mySite/static/css/main.93dbff1e.css.map",
-    "main.32e3898d.js.map": "/mySite/static/js/main.32e3898d.js.map",
+    "main.e83bb6ce.js.map": "/mySite/static/js/main.e83bb6ce.js.map",
     "787.825f97f9.chunk.js.map": "/mySite/static/js/787.825f97f9.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.93dbff1e.css",
-    "static/js/main.32e3898d.js"
+    "static/js/main.e83bb6ce.js"
   ]
 }
